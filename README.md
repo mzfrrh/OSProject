@@ -2,11 +2,11 @@
 
 Group Name: __Fill your team name__. 
 
-Section: __Fill your class section__. 
+Section: 03. 
 
 Team Mates:
-1. __Fill name__ and __matric no__
-2. __Fill name__ and __matric no__
+1. _NURULAIN BALQIS BT MAT DAUD and __matric no__
+2. NURUL MUZFIRAH BT MUSTAFFA and 2215640
 3. __Fill name__ and __matric no__
 
 ## Rules
