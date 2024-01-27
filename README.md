@@ -5,9 +5,9 @@ Group Name: __Fill your team name__.
 Section: 03. 
 
 Team Mates:
-1. _NURULAIN BALQIS BT MAT DAUD and __matric no__
+1. NURULAIN BALQIS BT MAT DAUD and 2210980
 2. NURUL MUZFIRAH BT MUSTAFFA and 2215640
-3. __Fill name__ and __matric no__
+   
 
 ## Rules
 1. You are allowed to have **3 group** members. *Exception* is allowed **IFF (if and only if)** you are allowed to have 4 group members if you are a **multinational** or a **multigender** group. 
