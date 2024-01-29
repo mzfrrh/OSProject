@@ -434,6 +434,7 @@ f65be1987f84   debian    "bash"    19 minutes ago   Exited (137) 18 seconds ago 
 ```
 
 7. Stop the container and delete the container. What happened to your helloworld.txt?
+The helloworld.txt will be deleted
 
 ```bash 
 @joeynor ➜ /workspaces/OSProject (main) $ docker stop romantic_jackson
@@ -468,14 +469,28 @@ At the terminal, create a new directory called **myroot**, and run a instance of
 
 ***Questions:***
 
-1. Check the permission of the files created in myroot, what user and group is the files created in docker container on the host virtual machine? . ***(2 mark)*** __Fill answer here__.
+1. Check the permission of the files created in myroot, what user and group is the files created in docker container on the host virtual machine? . ***(2 mark)*** 
+__
+```bash
+@ablqis ➜ /workspaces/OSProject/myroot (main) $ ls -ld
+drwxrwxrwx+ 2 codespace codespace 4096 Jan 29 18:45 .
+user : codespace
+group : codespace
+```
+
 2. Can you change the permission of the files to user codespace.  You will need this to be able to commit and get points for this question. ***(2 mark)***
 ```bash
 //use sudo and chown
 sudo chown -R codespace:codespace myroot
 
 ```
-*** __Fill answer here__.***
+
+```bash
+@ablqis ➜ /workspaces/OSProject/myroot (main) $ sudo chown -R codespace:codespace /workspaces/OSProject/myroot
+@ablqis ➜ /workspaces/OSProject/myroot (main) $ ls -ld /workspaces/OSProject/myroot
+drwxrwxrwx+ 2 codespace codespace 4096 Jan 29 18:45 /workspaces/OSProject/myroot
+```
+
 
 ## You are on your own, create your own static webpage
 
