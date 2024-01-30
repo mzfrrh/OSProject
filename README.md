@@ -2,7 +2,7 @@
 
 Group Name: __Fill your team name__. 
 
-Section: 03. 
+Section: 03
 
 Team Mates:
 1. NURULAIN BALQIS BT MAT DAUD 2210980
@@ -25,7 +25,7 @@ Team Mates:
 ***Questions:***
 
 1. What is the link of the fork OSProject in your repository. ***(1 mark)*** https://github.com/mzfrrh/OSProject
-2. How many files and folders are in this repository. ***(1 mark)*** 1 README.md files , 1 images folder
+2. How many files and folders are in this repository. ***(1 mark)*** 1 README.md file , 1 images folder
 
 
 ## Exploring github codespaces
@@ -60,10 +60,10 @@ Team Mates:
 1. What is default OS used to run the virtual environment for codespaces. ***(1 mark)*** __Linux Ubuntu__.
 2. What are the two options of ram, disk and vcpu configuration you can have in running codespaces . ***(1 mark)*** 
 __2-core,8GB RAM,32GB &__.
-__4-core,16GB RAM ,32GB__
+__4-core,16GB RAM,32GB__
 
 3. Why must we commit and sync our current work on source control? ***(1 mark)*** 
-__To prevent data loss, and it ensures that collaborators have access to the most up-to-date version of the code.__.
+__To prevent data loss, and it ensures that collaborators have access to the most up-to-date version of the code__.
 
 ## Exploring the Terminal
 
