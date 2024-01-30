@@ -1,6 +1,6 @@
 # OSProject Running Containers for Application Development
 
-Group Name: __Fill your team name__. 
+Group Name: __Twos__. 
 
 Section: 03
 
