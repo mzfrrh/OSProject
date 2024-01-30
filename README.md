@@ -434,7 +434,7 @@ f65be1987f84   debian    "bash"    19 minutes ago   Exited (137) 18 seconds ago 
 ```
 
 7. Stop the container and delete the container. What happened to your helloworld.txt?
-The helloworld.txt will be deleted
+___The helloworld.txt will be deleted__
 
 ```bash 
 @joeynor ➜ /workspaces/OSProject (main) $ docker stop romantic_jackson
@@ -450,7 +450,7 @@ f65be1987f84   debian    "bash"    19 minutes ago   Exited (137) 18 seconds ago 
 
 1. Are files in the container persistent. Why not?. ***(1 mark)*** 
 __Any changes made within a container, such as modifying or creating files, are stored within the container's filesystem,but once the container stops, those changes are lost__
-2. Can we run two, or three instances of debian linux? . ***(1 mark)*** __Yes, we can run multiple instances of Debian Linux containers simultaneously.__.
+2. Can we run two, or three instances of debian linux? . ***(1 mark)*** __Yes, we can run multiple instances of Debian Linux containers simultaneously__.
 
 ## Running your own container with persistent storage
 
@@ -516,9 +516,25 @@ docker run --detach -v /workspaces/OSProject/webpage:/usr/local/apache2/htdocs/ 
 
 ***Questions:***
 
-1. What is the permission of folder /usr/local/apache/htdocs and what user and group owns the folder? . ***(2 mark)*** __Fill answer here__.
+1. What is the permission of folder /usr/local/apache/htdocs and what user and group owns the folder? . ***(2 mark)*** 
+```bash
+@mzfrrh ➜ /workspaces/OSProject/webpage (main) $ docker exec c1a0fd71c554 ls -ld /usr/local/apache2/htdocs/
+drwxrwxrwx+ 2 1000 1000 4096 Jan 30 07:32 /usr/local/apache2/htdocs/
+
+user : 1000
+group : 1000
+```
 2. What port is the apache web server running. ***(1 mark)***
+```bash
+@mzfrrh ➜ /workspaces/OSProject/webpage (main) $ docker ps
+CONTAINER ID   IMAGE     COMMAND              CREATED          STATUS          PORTS                                   NAMES
+c1a0fd71c554   httpd     "httpd-foreground"   12 minutes ago   Up 12 minutes   0.0.0.0:8080->80/tcp, :::8080->80/tcp   lucid_fermat
+
+port 80
+
+```
 3. What port is open for http protocol on the host machine? ***(1 mark)***
+__port 8080__
 
 ## What to submit
 
